@@ -148,11 +148,14 @@
 
 &lt;script type="text/javascript" src="vanilla-tilt.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;
+  // You can use ES module import instead of the global import above.
+  // import VanillaTilt from 'vanilla-tilt';
+
 	VanillaTilt.init(document.querySelector(".your-element"), {
 		max: 25,
 		speed: 400
 	});
-	
+
 	//It also supports NodeList
 	VanillaTilt.init(document.querySelectorAll(".your-element"));
 &lt;/script&gt;

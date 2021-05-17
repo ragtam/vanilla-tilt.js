@@ -86,6 +86,12 @@ Also available on npm https://www.npmjs.com/package/vanilla-tilt
 npm install vanilla-tilt
 ```
 
+Import it using
+
+```
+import VanillaTilt from 'vanilla-tilt';
+```
+
 #### Typings
 
 Installing typings using npm
